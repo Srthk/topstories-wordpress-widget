@@ -1,0 +1,36 @@
+#trending {
+   display: block;
+   text-transform: uppercase;
+}
+#trending table{
+   border-collapse:collapse;
+   border-spacing: 0;
+   overflow:hidden;
+}
+
+.trending-row {
+  width: 100%;
+  padding: 20px;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s ease;
+}
+
+#trending a {
+     text-decoration: none;
+}
+.trending-row:hover {
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.7);
+    transition:all 0.5s ease-in;
+    transform:scale(1.1);
+}
+#trending img {
+   display: block;
+   object-fit: cover;
+   height: 200px;
+}
